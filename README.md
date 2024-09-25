@@ -25,5 +25,4 @@
 3. With the help of similar concept we can connect any chatbot with database to fetch and get the answers from chatbot according to our requirements.
 
 
-
- *****************************************************  Happy Learning :)    *****************************************************************
+>    **Happy Learning** 
