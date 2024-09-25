@@ -5,8 +5,9 @@ from datetime import datetime
 app = Flask(__name__)
 # app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:sawan@localhost:3306/todo"
 
-# Not using database name in URI as creating database with other logic below
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://root:sawan@localhost:3306/todo"
+# Make sure to replace your name and password of your mysql db inplace of xxxx:xxxx
+
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://xxxx:xxxx@localhost:3306/todo"
 db = SQLAlchemy(app)
 
 class Todo(db.Model):

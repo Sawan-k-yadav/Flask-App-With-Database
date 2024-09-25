@@ -1,4 +1,4 @@
-## To create tables from the database uri model
+## To create database and tables from the database uri model for the first time only
 
 # from app import app, db
 
